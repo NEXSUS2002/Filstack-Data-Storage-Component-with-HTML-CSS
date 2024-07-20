@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --Marigold-color: #F2AC20;
+    --Mustard-color: #FFD151;
+    --Celtic-blue-color: #276FBF;
+    --Space-cadet-blue-color: #183059;
+    --Gradient-color: linear-gradient(45deg, #276FBF, #183059);
+    --Neutral-color1: #ffffff;
+    --Neutral-color2: #000000;
+    --Neutral-color3: #707070;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    background-image: url("/Filstack-Data-Storage-Component-with-HTML-CSS/Assets/Bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1, .container2 {
+    background-color: var(--Mustard-color);
+    box-shadow: 0 3px 10px var(--Neutral-color3);
+}
+
+.container1 {
+    margin-bottom: 30px;
+    border-radius: 0 100px 0 20px;
+    padding: 30px 50px 30px 30px;
+}
+
+.container-section1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.container-section1 h1 {
+    font-weight: 800;
+}
+
+.container-section1 img {
+    width: 75px;
+    height: 51px;
+}
+
+.container-section2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-section2 div {
+    background-color: var(--Marigold-color);
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color, 0.3s ease;
+}
+
+.container-section2 div:hover {
+    background-color: var(--Celtic-blue-color);   
+    cursor: pointer;
+}
+
+.container2 {
+    border-radius: 5px;
+    padding: 40px 20px 40px 20px;
+    position: relative;
+}
+
+.container2 p {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.white-bar {
+    background-color: var(--Neutral-color1);
+    width: 279px;
+    height: 15px;
+    margin: 10px 0 10px 0;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.gradient-bar {
+    background: var(--Gradient-color);
+    width: 194px;
+    height: 11px;
+    border-radius: 50px;
+    margin-left: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.circle {
+    background-color: var(--Neutral-color1);
+    border-radius: 100%;
+    width: 9px;
+    height: 9px;
+    margin-right: 2px;
+}
+
+.space-value {
+    display: flex;
+    justify-content: space-between;
+}
+
+.space-value p {
+    font-weight: 700;
+}
+
+#celtic {
+    color: var(--Celtic-blue-color);
+}
+
+#space {
+    color: var(--Space-cadet-blue-color);
+}
+
+.relative {
+    background-color: var(--Neutral-color1);
+    display: inline-block;
+    padding: 15px;
+    border-radius: 5px;
+    position: absolute;
+    left: 85px;
+    top: 75%;
+}
+
+.relative h2 {
+    font-weight: 800;
+}
+
+.relative h2 span {
+    font-size: 13px;
+    color: var(--Marigold-color);
+}
+
+.size {
+    width: 25px;
+    height: 25px;
+}
+
+@media(min-width: 768px) {
+    .container1 {
+        min-width: 600px;
+        min-height: 300px;
+    }
+    .container-section1 {
+        margin-bottom: 40px;
+    }
+
+    .container-section1 img {
+        min-width: 134px;
+        min-height: 92px;
+    }
+
+    .container-section1 h1 {
+        font-size: 45px;
+    }
+
+    .container-section2 div {
+        min-width: 70px;
+        min-height: 70px;
+    }
+
+    .size {
+        min-width: 35px;
+        min-height: 35px;
+    }
+
+    .container2 {
+        min-width: 600px;
+        min-height: 200px;
+        padding: 50px 30px 50px 30px;
+    }
+
+    .container2 p {
+        font-size: 18px;
+    }
+
+    .white-bar {
+        width: 579px;
+        height: 25px;
+    }
+
+    .gradient-bar {
+        width: 394px;
+        height: 21px;
+    }
+
+    .circle {
+        width: 19px;
+        height: 19px;
+    }
+
+    .relative {
+        left: 35%;
+        bottom: 40px;
+        height: 80px;
+    }
+
+    .relative h2 {
+        font-size: 35px;
+    }
+
+    .relative h2 span {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .overall-flex {
+        display: flex;
+        
+    }
+
+    .container2 {
+        margin-left: 20px;
+        height: 174px;
+        margin-top: 100px;
+    }
+
+    .relative {
+        top: -25%;
+        left: 70%;
+        border-bottom-right-radius: 0;
+    }
+
+    .triangle {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-top: 50px solid var(--Neutral-color1);
+        margin-left: 72.5%;
+        margin-top: 15%;
+    }
+}
