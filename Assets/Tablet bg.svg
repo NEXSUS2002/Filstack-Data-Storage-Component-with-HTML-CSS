@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="933" height="1104.5" viewBox="0 0 933 1104.5">
+  <defs>
+    <filter id="Path_23" x="0" y="44.3" width="933" height="1054.76" filterUnits="userSpaceOnUse">
+      <feOffset dx="-16" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="27.5" result="blur"/>
+      <feFlood flood-color="#f2ac20" flood-opacity="0.6"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_24" x="115.04" y="459.92" width="817.96" height="644.58" filterUnits="userSpaceOnUse">
+      <feOffset dx="-16" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="27.5" result="blur-2"/>
+      <feFlood flood-color="#f2ac20" flood-opacity="0.6"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_32" data-name="Group 32" transform="translate(-1869.75 -1.5)">
+    <rect id="Rectangle_15" data-name="Rectangle 15" width="768" height="1022" transform="translate(1968.25 1.5)" fill="#f2ac20"/>
+    <path id="Path_22" data-name="Path 22" d="M2736.25,1018.06V1.5H2601.89c-110.43,22.21-243.17,70.43-325.83,183.93-111.95,153.73-30.01,287.09-140.13,398.63-50.43,51.08-105.51,61.48-167.68,64.56V1023.5h768Z" fill="#f9c449"/>
+    <g transform="matrix(1, 0, 0, 1, 1869.75, 1.5)" filter="url(#Path_23)">
+      <path id="Path_23-2" data-name="Path 23" d="M2736.25,128.3v889.76h-768V780.37c7.55-5.45,15.77-11.01,24.83-16.73,222.31-140.24,377.35-13.83,503.39-141.49,110.12-111.53,28.17-244.89,140.13-398.63C2664.91,184.64,2699.1,153.43,2736.25,128.3Z" transform="translate(-1869.75 -1.5)" fill="#f9ce69"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1869.75, 1.5)" filter="url(#Path_24)">
+      <path id="Path_24-2" data-name="Path 24" d="M2736.25,1018.06V543.92c-30.79,108.93-3.98,205.96-87.41,290.47-126.03,127.66-281.08,1.25-503.38,141.49-23.49,14.82-41.38,28.6-56.32,42.18q-3,2.73-5.85,5.44h652.96Z" transform="translate(-1869.75 -1.5)" fill="#fcdc73"/>
+    </g>
+  </g>
+</svg>
